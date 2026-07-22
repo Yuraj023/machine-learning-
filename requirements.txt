@@ -1,0 +1,51 @@
+# Core Data Science Libraries
+numpy
+pandas
+scipy
+
+# Data Visualization
+matplotlib
+plotly
+
+# Machine Learning
+scikit-learn
+joblib
+
+# Jupyter Notebook
+jupyter
+notebook
+ipykernel
+
+# Streamlit Deployment
+streamlit
+
+# Model Explainability (Optional)
+shap
+lime
+
+# Progress Bars
+tqdm
+
+# Utilities
+python-dotenv
+
+# Excel Support
+openpyxl
+xlrd
+
+# Statistical Analysis
+statsmodels
+
+# Feature Engineering
+category_encoders
+
+# Hyperparameter Optimization
+optuna
+
+# Gradient Boosting Algorithms
+xgboost
+lightgbm
+catboost
+
+# Imbalanced Dataset Handling
+imbalanced-learn

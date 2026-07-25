@@ -1,0 +1,153 @@
+/* Churn dashboard styles */
+.main {
+    background: linear-gradient(180deg, #0b1220 0%, #111827 100%);
+}
+html, body, [class*="css"] {
+    font-family: 'Segoe UI', Roboto, Arial, sans-serif;
+}
+.block-container {
+    padding-top: 1.4rem;
+    padding-bottom: 1.4rem;
+}
+h1, h2, h3, h4, h5, h6 {
+    color: #e5e7eb;
+}
+.hero-banner {
+    background: linear-gradient(135deg, #0f172a 0%, #1f2937 100%);
+    padding: 1.8rem 1.6rem;
+    border-radius: 16px;
+    text-align: center;
+    margin-bottom: 1rem;
+    border: 1px solid #334155;
+}
+.hero-banner h1 {
+    color: #f8fafc;
+    font-size: 2rem;
+    font-weight: 800;
+    margin-bottom: 0.25rem;
+}
+.hero-banner p {
+    color: #cbd5e1;
+    font-size: 1rem;
+    margin: 0;
+}
+.section-header {
+    font-size: 1.05rem;
+    font-weight: 700;
+    color: #e5e7eb;
+    margin: 1rem 0 0.55rem 0;
+    padding-bottom: 0.35rem;
+    border-bottom: 1px solid #334155;
+}
+.metric-card {
+    background: #111827;
+    border: 1px solid #334155;
+    border-radius: 14px;
+    padding: 1rem 0.9rem;
+    text-align: center;
+}
+.metric-card .value {
+    font-size: 1.45rem;
+    font-weight: 800;
+    color: #f8fafc;
+}
+.metric-card .label {
+    font-size: 0.78rem;
+    color: #94a3b8;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-top: 0.15rem;
+}
+.metric-card .subtitle {
+    font-size: 0.8rem;
+    color: #cbd5e1;
+    margin-top: 0.3rem;
+}
+.dashboard-card {
+    background: #0f172a;
+    border: 1px solid #334155;
+    border-radius: 16px;
+    padding: 1rem 1rem 0.9rem 1rem;
+}
+.result-card {
+    border-radius: 16px;
+    padding: 1.35rem;
+    text-align: center;
+    border: 1px solid #334155;
+}
+.result-high {
+    background: linear-gradient(145deg, #3b0f19, #4a1626);
+    border: 1px solid #e0435c;
+}
+.result-medium {
+    background: linear-gradient(145deg, #3a2a11, #4a3816);
+    border: 1px solid #e0a53c;
+}
+.result-low {
+    background: linear-gradient(145deg, #12301f, #16452b);
+    border: 1px solid #3ce07a;
+}
+.result-card h2 {
+    font-size: 1.5rem;
+    margin-bottom: 0.2rem;
+}
+.risk-badge {
+    display: inline-block;
+    padding: 0.32rem 1rem;
+    border-radius: 999px;
+    font-weight: 700;
+    font-size: 0.85rem;
+    letter-spacing: 0.5px;
+    margin-top: 0.35rem;
+}
+.risk-high { background: #e0435c33; color: #ff6b83; border: 1px solid #e0435c; }
+.risk-medium { background: #e0a53c33; color: #ffc46b; border: 1px solid #e0a53c; }
+.risk-low { background: #3ce07a33; color: #6bffa0; border: 1px solid #3ce07a; }
+.action-box {
+    background: #0f172a;
+    border: 1px solid #334155;
+    border-radius: 12px;
+    padding: 0.85rem 1rem;
+    margin-top: 0.85rem;
+    text-align: left;
+    color: #e5e7eb;
+}
+.action-box ul {
+    margin: 0.3rem 0 0 0;
+    padding-left: 1.1rem;
+}
+.small-note {
+    color: #94a3b8;
+    font-size: 0.88rem;
+    margin-top: 0.2rem;
+}
+.sidebar-panel {
+    background: #111827;
+    border: 1px solid #334155;
+    border-radius: 16px;
+    padding: 1rem 1rem 0.75rem 1rem;
+    margin-bottom: 0.9rem;
+}
+.sidebar-panel h3 {
+    margin: 0 0 0.35rem 0;
+    color: #f8fafc;
+    font-size: 1rem;
+}
+.sidebar-panel p {
+    margin: 0;
+    color: #cbd5e1;
+    font-size: 0.9rem;
+    line-height: 1.45;
+}
+.stButton>button {
+    background: #1d4ed8;
+    color: white;
+    font-weight: 700;
+    border: none;
+    border-radius: 10px;
+    padding: 0.65rem 1rem;
+    width: 100%;
+}
+.stSelectbox label, .stNumberInput label, .stRadio label {
+    color: #e5e7eb !important;
+}
